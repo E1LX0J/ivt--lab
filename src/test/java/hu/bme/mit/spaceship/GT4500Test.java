@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.*;
 
-//Just wanna cause trouble ˇ-ˇ
+//Just to cause some problems :P
 public class GT4500Test {
 
   private GT4500 ship;
