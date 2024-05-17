@@ -1,0 +1,7 @@
+Teszt neve				FiringMode	Előkészítés																										Elvárt eredmény			Megjegyzése
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SingleFire_BothEmpty	SINGLE		primaryTorpedoStore üres, secondaryTorpedoStore üres															false					Ha mindkét tároló üres, nem lehet lőni
+AllFire_BothEmpty		ALL			primaryTorpedoStore üres, secondaryTorpedoStore üres															false					Ha mindkét tároló üres, nem lehet lőni
+SingleFire_Alternate	SINGLE		primaryTorpedoStore nem üres, secondaryTorpedoStore nem üres, előzőleg az elsődleges tárolóból történt lövés	true					A lövések váltakoznak, ezúttal a másodlagos tárolóból kell lőni
+AllFire_PrimaryEmpty	ALL			primaryTorpedoStore üres, secondaryTorpedoStore nem üres														true					Ha az elsődleges üres, csak a másodlagosból kell lőni
+AllFire_BothNonEmpty	ALL			primaryTorpedoStore nem üres, secondaryTorpedoStore nem üres													true					Mindkét tárolóból lőni kell, ha mindkettő nem üres
